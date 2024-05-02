@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from './firebase';
+import firebase, { db } from './firebase';
 import UserStoryForm from './components/UserStoryForm';
 import UserStoryTable from './components/UserStoryTable';
 import EffortTotalsTable from './components/EffortTotalsTable';
