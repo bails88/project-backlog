@@ -17,5 +17,10 @@
         "src": "/(.*)",
         "dest": "/index.html"
       }
-    ]
+    ],
+    "build": {
+      "env": {
+        "SKIP_PREFLIGHT_CHECK": "true"
+      }
+    }
   }
